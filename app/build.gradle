@@ -7,8 +7,8 @@ android {
         minSdkVersion 16
         targetSdkVersion 30
 
-        versionName "9.7.7"
-        versionCode = 247
+        versionName "Pilot 1"
+        versionCode = 1.0
     }
 
     flavorDimensions "root"
@@ -25,7 +25,7 @@ android {
                 }
             }
 
-            applicationId "com.limelight.root"
+            applicationId "eu.rouster.root"
             dimension "root"
         }
 
@@ -36,7 +36,7 @@ android {
                 }
             }
 
-            applicationId "com.limelight"
+            applicationId "eu.rouster"
             dimension "root"
         }
     }
@@ -99,7 +99,7 @@ android {
             // is to please change the applicationId before you publish.
             //
             // TL;DR: Leave the following line alone!
-            applicationIdSuffix ".unofficial"
+            applicationIdSuffix ".pilot"
 
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
